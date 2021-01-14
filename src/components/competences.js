@@ -17,7 +17,7 @@ const Competences = (props) => (
       <div className="conteneur-barre"><span className="barre c90"></span></div>
     </div>
     <div className="comp">
-      <p>Agular</p>
+      <p>Angular</p>
       <div className="conteneur-barre"><span className="barre c100"></span></div>
     </div>
     <div className="comp">
