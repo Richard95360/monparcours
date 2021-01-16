@@ -20,7 +20,7 @@ class composant extends Component {
 
   <section>
       <div className="photo">
-        <img src={img} alt=""/>
+        <img src={img} alt="" zoom/>
     </div>
    
     <div className="prez">
