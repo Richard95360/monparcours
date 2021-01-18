@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import img from '../img/richard.png';
+import img from '../img/richard.jpeg';
 import imgReact from '../img/iconReact.js.png';
 import imgAngular from '../img/angular.png';
 import imgJavascript from '../img/javaScript.png';
@@ -20,7 +20,7 @@ class composant extends Component {
 
   <section>
       <div className="photo">
-        <img src={img} alt="" zoom/>
+        <img src={img} alt="" zoom=""/>
     </div>
    
     <div className="prez">
