@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 import img from '../img/richard.jpeg';
 import imgReact from '../img/iconReact.js.png';
 import imgAngular from '../img/angular.png';
