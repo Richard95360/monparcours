@@ -4,6 +4,7 @@ import imgReact from '../img/iconReact.js.png';
 import imgAngular from '../img/angular.png';
 import imgJavascript from '../img/javaScript.png';
 import imgjav from '../img/Jivi.png'
+import pdf from '../img/richardCvDev.pdf'
 
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';
@@ -14,6 +15,8 @@ class composant extends Component {
  
   render (){ 
     let resumeData = this.props.resumeData;
+
+   
     return (
 
 
@@ -24,10 +27,9 @@ class composant extends Component {
    
     <div className="prez">
        <h2>Qui suis-je ?</h2>
-       <p>Developpeur <strong>Java/jee Full/Stack ReactJs& Angular2+ & JavaScript</strong>&nbsp;
-        je mi'interesse à l'
-         informatique et les thématique liées au web en 2014.</p>
-        <a href="#cv" >Telecharger mon CV</a>
+       <p>Developpeur <strong>Java/jee Full/Stack ReactJs& Angular2+ & JavaScript</strong>&nbsp;</p>
+       
+        <a target='_blank' rel="noopener noreferrer" href={pdf}>telechager</a>
         <div className="row banner">
           
           <ul className="social">
@@ -52,10 +54,10 @@ class composant extends Component {
         </div>
         <div className="contact-flex">
           <p>Adresse : </p>
-          <p>2 Rue de pierrefitte - 95360 Montmangy</p>
+          <p>2 Rue de pierrefitte - 95360 Montmagny</p>
         </div>
         <div className="contact-flex">
-          <p>Téléphonne : </p>
+          <p>Téléphone : </p>
           <p>06 09 92 46 80</p>
         </div>
         <div className="contact-flex">

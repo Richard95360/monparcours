@@ -16,9 +16,8 @@ const Profess = (props) => (
         <h4>Aout 2018 à Octobre 2020</h4>
         <p>TMA CGI,maintenance d’une application projet ESCO 
           numerisation de documents,gestion des bugs 
-          des évolutions,en méthode agile,framework Jetspeed , 
-          Spring mvc hibernate,jquery,javacript,  
-          java/jee webservice soapRest,jsp,XML,tomcat,Junit ,
+          des évolutions,en méthode agile,framework Jetspeed, 
+          Spring mvc hibernate,jquery,javacript, java/jee webservice soapRest,jsp,XML,tomcat,Junit,
           Jenkins integration continue,git,sonar</p>
       </div>
       <div className="exp-desc">

@@ -9,7 +9,7 @@ const Competences = (props) => (
       <div className="conteneur-barre"><span className="barre c100"></span></div>
     </div>
     <div className="comp">
-      <p>Java / SQL</p>
+      <p>Java /Jee</p>
       <div className="conteneur-barre"><span className="barre c95"></span></div>
     </div>
     <div className="comp">
