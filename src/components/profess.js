@@ -14,11 +14,7 @@ const Profess = (props) => (
         <h3>CGI-BNF</h3>
         <h4>Richard Haddad</h4>
         <h4>Aout 2018 à Octobre 2020</h4>
-        <p>TMA CGI,maintenance d’une application projet ESCO 
-          numerisation de documents,gestion des bugs 
-          des évolutions,en méthode agile,framework Jetspeed, 
-          Spring mvc hibernate,jquery,javacript, java/jee webservice soapRest,jsp,XML,tomcat,Junit,
-          Jenkins integration continue,git,sonar</p>
+        <p>évolutions et maintien en condition opérationnelle d’une application(portail/portlets Java/J2E,full statck, gestionnaire de portlets, JetSpeed, spring MVC hibernate,XML,XSD,JSP,Javascript & Jquery,base de donnée PostgreSQL) de gestion des partenariats numérique de la Bibliothèque nationale de France (signalisation,numériqation et versement de documents dans Gallica par un pool de plusieurs dizaines de partenaires institutionnels),dans le cadre d’une methode agile (scrum)</p>
       </div>
       <div className="exp-desc">
        <p>Developeur Java Full/Stack</p>
