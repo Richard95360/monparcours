@@ -56,13 +56,26 @@ class composant extends Component {
        
           <ul className="social">
           
-            {resumeData.socialLinks && resumeData.socialLinks.map((item) => {
+            {resumeData.socialLinks && resumeData.socialLinks.map((item,index) => {
                 return (
-                  <li key={item.name}>
-                    <a data-tip=" Lien Linkedin" href={item.url} target="blank">
-                      <i className={item.className} ></i>
+                  <>
+                  <li key={index}>
+                    <a data-tip=" Lien Linkedin " href={item.url} target="blank">
+                      <i className={item.className}></i>
                     </a>
                   </li>
+                  </>
+                );
+              })}&nbsp;&nbsp;&nbsp;&nbsp;
+               {resumeData.github && resumeData.github.map((item,index) => {
+                return (
+                  <>
+                  <li key={index}>
+                    <a data-tip=" Lien github " href={item.url} target="blank">
+                      <i className={item.className}></i>
+                    </a>
+                  </li>
+                  </>
                 );
               })}
           </ul>
