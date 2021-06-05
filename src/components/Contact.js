@@ -18,7 +18,7 @@ class composant extends Component {
   
     this.state = {
        title:'Qui suis-je ?',
-       prof:'Developpeur',
+       prof:'Developpeur ',
        metier:'Java/jee Full/Stack ReactJs& Angular2+ & JavaScript',
        infosContact:{
          nom:'Haddad Richard',
