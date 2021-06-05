@@ -53,9 +53,9 @@ export class FormationRic extends Component {
                     </div>
                     <div className="exp-info" >
                       <h3 style={FormStyle}>{f.ecole}</h3>
+                      <h4 style={FormStyle}>{f.date}</h4>
                       <p style={FormStyle}>{f.comp}</p>
                       <p style={FormStyle}>{f.metier}</p>
-                      <p style={FormStyle}>{f.date}</p>
                     </div>
                   </div>
                   <Formation

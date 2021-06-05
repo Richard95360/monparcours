@@ -18,7 +18,7 @@ class composant extends Component {
   
     this.state = {
        title:'Qui suis-je ?',
-       prof:'Developpeur ',
+       prof:'Developpeur :',
        metier:'Java/jee Full/Stack ReactJs& Angular2+ & JavaScript',
        infosContact:{
          nom:'Haddad Richard',
@@ -45,7 +45,7 @@ class composant extends Component {
    
     <div className="prez">
        <h2 style={FormStyle}>{title}</h2>
-       <p style={FormStyle}>{prof}<strong>{metier}</strong>&nbsp;</p>
+       <p style={FormStyle}>{prof} {metier}&nbsp;</p>
 
      
        <ReactTooltip 
