@@ -17,7 +17,7 @@ body {
   font-family: Avenir, sans-serif;
   padding: 0px;
   margin: 0px;
- 
+  list-style:none;
   box-sizing: border-box;
 }
 

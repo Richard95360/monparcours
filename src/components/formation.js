@@ -40,7 +40,7 @@ export class FormationRic extends Component {
       <>
         {forma.udemy &&
           forma.udemy.map((f, index) => {
-            console.log(f);
+           
             return (
               <section  key={index}>
                 <div key={index}>
@@ -73,7 +73,7 @@ export class FormationRic extends Component {
 
         {forma.ajcFormation &&
           forma.ajcFormation.map((fo, index) => {
-            console.log(fo);
+           
             return (
               <section  key={index}>
                 <div key={index}>
