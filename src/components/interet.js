@@ -4,24 +4,34 @@ import cuisine from '../img/cuisine.jpeg'
 import jeuxv from '../img/gaming.jpeg'
 import litera from '../img/livre.jpeg'
 
+const interet = {
+
+  inte:"Centres d'intérêt",
+  jog:'Jogging',
+  cuis:'Cuisine',
+  jeuvi:'jeux video',
+  litte:'Littérature'
+
+}
+
 const Interet = (props) => (
     <section>
-    <h2>Centres d'intérêt</h2>
+    <h2>{interet.inte}</h2>
     <figure className="interet">
       <img src={trail} alt=""/>
-      <figcaption>jogging</figcaption>
+      <figcaption>{interet.jog}</figcaption>
     </figure>
     <figure className="interet">
       <img src={cuisine} alt=""/>
-      <figcaption>Cuisine</figcaption>
+      <figcaption>{interet.cuis}</figcaption>
     </figure>
     <figure className="interet">
       <img src={jeuxv} alt=""/>
-      <figcaption>jeux video</figcaption>
+      <figcaption>{interet.jeuvi}</figcaption>
     </figure>
     <figure className="interet">
       <img src={litera} alt=""/>
-      <figcaption>Littérature</figcaption>
+      <figcaption>{interet.litte}</figcaption>
     </figure>
   </section>
 

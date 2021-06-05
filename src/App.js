@@ -2,7 +2,7 @@ import Accueil from './components/Accueil'
 import Header from './components/Header'
 import Contact from './components/Contact'
 import Profess from './components/profess';
-import Formation from './components/formation'
+import FormationRic from './components/formation'
 import Competences from './components/competences'
 import Interet from './components/interet'
 import Footer from './components/footer'
@@ -38,13 +38,11 @@ class App extends Component {
   render() {
   return (
     <>
-    
-      
-      <Header />
+      <Header/>
       <Accueil/>
       <Contact resumeData={resumeData} />
-      <Profess/>
-      <Formation/>
+      <Profess resumeData={resumeData}/>
+      <FormationRic />
       <Competences/>
       <Interet/>
       <Footer/>

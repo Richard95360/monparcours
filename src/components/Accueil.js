@@ -1,4 +1,8 @@
 import React from "react";
+
+const accueil = {
+  title:'CV de Richard Haddad'
+}
 const Accueil = (props) => (
 
    
@@ -6,7 +10,7 @@ const Accueil = (props) => (
    <>
   
      <div>
-        <title>CV de Richard Haddad</title>
+        <title>{accueil.title}</title>
      </div>
 
   
