@@ -51,7 +51,7 @@ class composant extends Component {
        <ReactTooltip 
            place="top"
            effect="solid"/>
-        <a target='_blank' rel="noopener noreferrer"  data-tip="Telecharger Le CV ici" href={pdf}>telechager</a>
+        <a target='_blank' rel="noopener noreferrer"  data-tip="Télécharger Le CV ici" href={pdf}>Télécharger</a>
         <div className="row banner">
        
           <ul className="social">
@@ -71,7 +71,7 @@ class composant extends Component {
                 return (
                   <>
                   <li key={index}>
-                    <a data-tip=" Lien github " href={item.url} target="blank">
+                    <a data-tip=" Lien Github " href={item.url} target="blank">
                       <i className={item.className}></i>
                     </a>
                   </li>

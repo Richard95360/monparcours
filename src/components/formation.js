@@ -5,8 +5,8 @@ import imgEcole from "../img/ecole.png";
 const forma = {
   udemy: [
     {
-      title: "Formation",
-      ecole: "Udemy",
+     
+      ecole: "Udemy Formation",
       date: "Novembre 2020",
       comp: "JavascriptES6 & Angular2+ &ReactJs",
       metier: "Developeur Front/End",
@@ -46,7 +46,7 @@ export class FormationRic extends Component {
                 <div key={index}>
                   <div className="exp">
                     <div className="exp-logo">
-                      <h3>{f.title}</h3>
+                    
                       <a href="#ed">
                         <img src={imgedhec} alt="" />
                       </a>
@@ -55,11 +55,13 @@ export class FormationRic extends Component {
                       <h3 style={FormStyle}>{f.ecole}</h3>
                       <h4 style={FormStyle}>{f.date}</h4>
                       <p style={FormStyle}>{f.comp}</p>
+                      </div>
+                      <div className="exp-desc">
                       <p style={FormStyle}>{f.metier}</p>
                     </div>
                   </div>
                   <Formation
-                    titre={f.title}
+                   
                     date={f.date}
                     ecole={f.ecole}
                     comp={f.comp}
